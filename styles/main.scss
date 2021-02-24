@@ -1,2 +1,7 @@
 @import './config/reset';
+@import './config/fonts';
 @import './config/globals';
+
+* {
+    font-family: 'DIN Next LT Pro';
+}
