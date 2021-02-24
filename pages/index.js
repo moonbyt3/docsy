@@ -1,15 +1,16 @@
-import Head from "next/head";
+import Head from 'next/head'
 
-import Sidebar from "../components/Sidebar/Sidebar";
+import Sidebar from './../components/Sidebar/Sidebar';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Sidebar />
     </div>
-  );
+  )
 }
